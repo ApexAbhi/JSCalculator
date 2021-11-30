@@ -1,0 +1,92 @@
+body{
+    background-image: radial-gradient(circle, #4a4849, #524e51, #58545a, #5d5a63, #61616d, #626473, #636879, #636b7f, #646a83, #666a86, #686889, #6c678c);
+    color: whitesmoke;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    margin-top: 20px;
+    border-bottom: 2px solid whitesmoke;
+ 
+}
+
+
+#slang{
+    font-weight: lighter;
+    font-size: 0.5em;
+}
+
+.calculator{
+    text-align: center;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 7%;
+}
+
+#screen{
+    width: 270px;
+    height: 40px;
+    margin-bottom: 20px;
+    background-image: radial-gradient(circle, #4a4849, #524e51, #58545a, #5d5a63, #61616d, #626473, #636879, #636b7f, #646a83, #666a86, #686889, #6c678c);
+    border-style: none;
+    color: whitesmoke;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+button{
+    height: 4rem;
+    width: 4rem;
+    border-style: none;
+    color:whitesmoke;
+    background-image: radial-gradient(circle, #4a4849, #524e51, #58545a, #5d5a63, #61616d, #626473, #636879, #636b7f, #646a83, #666a86, #686889, #6c678c);
+    font-weight:normal;
+    font-size: 1.5rem;
+}
+
+#hist{
+    background-image: radial-gradient(circle, #4a4849, #524e51, #58545a, #5d5a63, #61616d, #626473, #636879, #636b7f, #646a83, #666a86, #686889, #6c678c);
+    border: 1px solid whitesmoke;
+
+}
+
+#hist:hover{
+    box-shadow: none;
+}
+
+#his{
+    border: 2px solid whitesmoke;
+    border-radius: 3px;
+    margin-top: 30px;
+    display: none;
+}
+
+
+footer{
+    margin-top: 330px;
+}
+
+button:hover{
+    font-weight: bolder;
+    color: #90e0ef;
+    transform: translateY(0.3px);
+}
+
+
+
+
+@media (max-width:1016px) {
+    #screen{
+        width: 270px;
+    }
+    button{
+        height: 4rem;
+        width: 4rem;
+    }
+    footer{
+    margin-top: 331x;
+    }
+
+}
